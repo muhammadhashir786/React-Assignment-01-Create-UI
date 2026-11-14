@@ -1,11 +1,12 @@
 import React from "react";
+import victoriaImg from "../assets/Image/Victoria Falls.jpg";
 
 export default function DiscoverMore() {
   return (
     <div>
       <h2>Discover More</h2>
       <img
-        src="/src/assets/Image/Victoria Falls.jpg"
+        src={victoriaImg}
         alt="Victoria Falls"
         style={{ width: "320px", display: "block", marginBottom: "8px" }}
       />
